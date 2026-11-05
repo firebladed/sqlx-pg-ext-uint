@@ -1,6 +1,6 @@
 [package]
 name = "sqlx-pg-ext-uint"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2024"
 authors = [
     "tianxiu2b2t <atiaxniua@163.com>",
@@ -13,8 +13,8 @@ homepage = "https://github.com/HWSServer/sqlx-pg-ext-uint"
 keywords = ["sqlx", "postgres", "uint128"]
 
 [dependencies]
-sqlx = { version = "0.8.6", features = ["postgres"] }
+sqlx = { version = "0.9.0", features = ["postgres"] }
 
 [dev-dependencies]
-sqlx = { version = "0.8.6", features = ["postgres", "runtime-tokio"] }
-tokio = { version = "1.47.1", features = ["full"] }
+sqlx = { version = "0.9.0", features = ["postgres", "runtime-tokio"] }
+tokio = { version = "1.53.3", features = ["full"] }
