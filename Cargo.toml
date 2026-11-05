@@ -8,8 +8,8 @@ authors = [
 ]
 description = "A Simple Extension for SQLX to support postgres uint128"
 license = "MIT"
-repository = "https://github.com/HWSServer/sqlx-pg-ext-uint"
-homepage = "https://github.com/HWSServer/sqlx-pg-ext-uint"
+repository = "https://github.com/HWServer/sqlx-pg-ext-uint"
+homepage = "https://github.com/HWServer/sqlx-pg-ext-uint"
 keywords = ["sqlx", "postgres", "uint128"]
 
 [dependencies]
